@@ -4,29 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d77189f-d36a-4ead-b341-b0347b6fef2c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/primeiroprojeto.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AreaCalc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Condicional.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Estudos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JogoDaAdvinhacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Leitura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Loop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MediaNotas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NumeroMaior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NumeroPositivo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OutroLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Perfil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Soma.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Subtracao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tabuada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/conversao.java" afterDir="false" />
+    <list default="true" id="0d77189f-d36a-4ead-b341-b0347b6fef2c" name="Changes" comment="Estudando Java">
+      <change afterPath="$PROJECT_DIR$/src/Fatorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ImparPar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +41,8 @@
     "Application.AreaCalc.executor": "Run",
     "Application.Condicional.executor": "Run",
     "Application.Estudos.executor": "Run",
+    "Application.Fatorial.executor": "Run",
+    "Application.ImparPar.executor": "Run",
     "Application.JogoDaAdvinhacao.executor": "Run",
     "Application.Leitura.executor": "Run",
     "Application.Loop.executor": "Run",
@@ -77,10 +60,10 @@
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "D:/Users/gleis/OneDrive/javaprojects/primeiroprojeto/src/Main.java",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Tabuada">
+  <component name="RunManager" selected="Application.Fatorial">
     <configuration name="AreaCalc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AreaCalc" />
       <module name="primeiroprojeto" />
@@ -88,8 +71,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JogoDaAdvinhacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JogoDaAdvinhacao" />
+    <configuration name="Fatorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Fatorial" />
+      <module name="primeiroprojeto" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImparPar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ImparPar" />
       <module name="primeiroprojeto" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,13 +87,6 @@
     </configuration>
     <configuration name="NumeroMaior" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NumeroMaior" />
-      <module name="primeiroprojeto" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NumeroPositivo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NumeroPositivo" />
       <module name="primeiroprojeto" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -118,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Fatorial" />
+        <item itemvalue="Application.ImparPar" />
         <item itemvalue="Application.Tabuada" />
         <item itemvalue="Application.AreaCalc" />
         <item itemvalue="Application.NumeroMaior" />
-        <item itemvalue="Application.NumeroPositivo" />
-        <item itemvalue="Application.JogoDaAdvinhacao" />
       </list>
     </recent_temporary>
   </component>
@@ -135,6 +118,15 @@
       <option name="presentableId" value="Default" />
       <updated>1746826155010</updated>
     </task>
+    <task id="LOCAL-00001" summary="Estudando Java">
+      <option name="closed" value="true" />
+      <created>1747093294300</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1747093294300</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,6 +139,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Estudando Java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Estudando Java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
